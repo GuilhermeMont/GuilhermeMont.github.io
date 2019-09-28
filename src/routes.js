@@ -28,7 +28,9 @@ export default [
   {
     path: "/user-profile-lite",
     layout: DefaultLayout,
-    component: UserProfileLite
+    component: UserProfileLite,
+    noHeader: true,
+    noSidebar: true
   },
   {
     path: "/add-new-post",

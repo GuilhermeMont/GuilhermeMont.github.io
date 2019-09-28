@@ -1,0 +1,21 @@
+.Receita {
+  padding: 16px;
+}
+
+.Receita .Title {
+  margin-top: 10px;
+}
+
+.Receita .List {
+  display: block;
+}
+
+.Receita .Button {
+  display: block;
+  margin-top: 20px;
+  width: 200px;
+}
+
+.Validada {
+  padding: 40px;
+}

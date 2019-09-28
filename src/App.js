@@ -18,7 +18,7 @@ export default () => (
             exact={route.exact}
             component={withTracker(props => {
               return (
-                <route.layout {...props}>
+                <route.layout noFooter={route.noFooter} noHeader={route.noHeader} noSidebar={route.noSidebar} {...props}>
                   <route.component {...props} />
                 </route.layout>
               );

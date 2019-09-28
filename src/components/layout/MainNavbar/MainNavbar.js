@@ -20,7 +20,6 @@ const MainNavbar = ({ layout, stickyTop }) => {
         <Navbar type="light" className="align-items-stretch flex-md-nowrap p-0">
           <NavbarSearch />
           <NavbarNav />
-          <NavbarToggle />
         </Navbar>
       </Container>
     </div>
