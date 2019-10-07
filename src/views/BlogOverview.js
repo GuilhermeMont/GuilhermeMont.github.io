@@ -24,7 +24,7 @@ const BlogOverview = ({ smallStats }) => (
     {/* Default Light Table */}
     <Row>
       <Col>
-        <Card small className="mb-4">
+        <Card small className="mb-4" style={{width:'fit-content'}}>
           <CardHeader className="border-bottom">
             <h6 className="m-0">Suas Receitas</h6>
           </CardHeader>
@@ -49,7 +49,7 @@ const BlogOverview = ({ smallStats }) => (
                     <td>23/09/2019</td>
                     <td>Dr. Guilherme Larissa</td>
                     <td>Hospital Dores Doloridas</td>
-                    <Button href={'/errors'}>Ver receita</Button>
+                    <Button style={{marginTop: '24px'}} href={'/errors'}>Ver</Button>
                 </tr>
               </tbody>
             </table>

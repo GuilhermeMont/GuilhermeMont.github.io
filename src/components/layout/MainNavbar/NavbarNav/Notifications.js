@@ -1,6 +1,7 @@
 import React from "react";
 import { NavItem, NavLink, Badge, Collapse, DropdownItem } from "shards-react";
 
+
 export default class Notifications extends React.Component {
   constructor(props) {
     super(props);
@@ -20,7 +21,7 @@ export default class Notifications extends React.Component {
 
   render() {
     return (
-      <NavItem className="border-right dropdown notifications">
+      <NavItem className="dropdown notifications">
         <NavLink
           className="nav-link-icon text-center"
           onClick={this.toggleNotifications}

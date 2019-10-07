@@ -6,18 +6,20 @@ import { Container, Navbar } from "shards-react";
 import NavbarSearch from "./NavbarSearch";
 import NavbarNav from "./NavbarNav/NavbarNav";
 import NavbarToggle from "./NavbarToggle";
+import logo from '../../../images/CRUZ SAREI (BRANCO).png'
+import '../../../assets/receita.css'
 
 const MainNavbar = ({ layout, stickyTop }) => {
   const classes = classNames(
     "main-navbar",
-    "bg-white",
     stickyTop && "sticky-top"
   );
 
   return (
-    <div className={classes}>
+    <div className={classes} style={{backgroundColor: '#259DA8'}}>
       <Container className="p-0">
         <Navbar type="light" className="align-items-stretch flex-md-nowrap p-0">
+          <img className={'logo'} src={logo} alt={'logo'}/>
           <NavbarSearch />
           <NavbarNav />
         </Navbar>
